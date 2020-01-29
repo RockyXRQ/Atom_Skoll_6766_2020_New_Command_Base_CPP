@@ -19,7 +19,7 @@ void ElevatorUp::Execute() {
 
 // Returns true when the command should end.
 bool ElevatorUp::IsFinished() {
-    return false;
+    return true;
 }
 
 // Called once the command ends or is interrupted.

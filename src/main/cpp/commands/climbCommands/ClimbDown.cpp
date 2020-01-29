@@ -19,7 +19,7 @@ void ClimbDown::Execute() {
 
 // Returns true when the command should end.
 bool ClimbDown::IsFinished() {
-    return false;
+    return true;
 }
 
 // Called once the command ends or is interrupted.

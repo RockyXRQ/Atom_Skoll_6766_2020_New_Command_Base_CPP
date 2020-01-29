@@ -20,7 +20,7 @@ void IntakeFoldUp::Execute() {
 // Returns true when the command should end.
 
 bool IntakeFoldUp::IsFinished() {
-    return false;
+    return true;
 }
 // Called once the command ends or is interrupted.
 void IntakeFoldUp::End(bool interrupted) {

@@ -19,7 +19,7 @@ void IntakeFoldDown::Execute() {
 
 // Returns true when the command should end.
 bool IntakeFoldDown::IsFinished() {
-    return false;
+    return true;
 }
 
 // Called once the command ends or is interrupted.

@@ -19,7 +19,7 @@ void ClimbUp::Execute() {
 
 // Returns true when the command should end.
 bool ClimbUp::IsFinished() {
-    return false;
+    return true;
 }
 
 // Called once the command ends or is interrupted.

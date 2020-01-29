@@ -19,7 +19,7 @@ void ElevatorDown::Execute() {
 
 // Returns true when the command should end.
 bool ElevatorDown::IsFinished() {
-    return false;
+    return true;
 }
 // Called once the command ends or is interrupted.
 void ElevatorDown::End(bool interrupted) {
